@@ -14,7 +14,7 @@ $ npm install @mikestaub/passport-slack
 ## Express Example
 ```js
 const {CLIENT_ID, CLIENT_SECRET, PORT} = process.env,
-      SlackStrategy = require('passport-slack').Strategy,
+      SlackStrategy = require('@mikestaub/passport-slack').Strategy,
       passport = require('passport'),
       express = require('express'),
       app = express();
